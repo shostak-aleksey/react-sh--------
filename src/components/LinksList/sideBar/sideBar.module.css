@@ -1,0 +1,40 @@
+.nav {
+    box-shadow: 0px 0px 7px #dce1f6, 0px 10px 15px #2272FF;
+    background-color: #1d1e22;
+    color: #dce1f6;
+    font-size: 24px;
+    border-radius: 0px 15px 15px 0px ;
+  }
+
+.ul {
+  display: flex;
+  color: #dce1f6;
+
+  flex-direction: column;
+}
+
+.li {
+   caret-color: transparent;
+  padding: 5px;
+  color: #dce1f6;
+  text-decoration: none;
+  margin: 5px;
+  border-radius: 5px;
+  border:#1d1e22 solid 2px ;
+  transition: text-shadow .1s, border-radius .1s,border .1s;
+}
+
+.li:hover {
+  border:#FFFF solid 2px ; 
+  text-shadow: 0 0 7px #feda6a;
+  color:#feda6a;
+}
+
+.li:active {
+  border:#ffffffb0 solid 2px ; 
+  text-shadow: 0 0 3px #fff;
+}
+.img {
+  width: 100px;
+  height: 100%;
+}

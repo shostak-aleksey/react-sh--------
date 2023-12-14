@@ -1,0 +1,72 @@
+.body {
+    box-shadow: 0px 0px 7px #dce1f6, 0px 10px 15px #2272FF;
+    background-color: #1d1e22;
+    color: #dce1f6;
+    font-size: 24px;
+    border-radius: 15px 15px 0px 0px ;
+    min-height: 92.5vh;
+    height: auto ;
+    padding: 5px 20px;
+    position: relative;
+}
+.ul {
+    /* flex-direction: column; */
+    /* display: flex;
+    flex-wrap: wrap; */
+    display: grid;
+    grid-template-rows: 1fr 1fr; 
+    grid-template-columns: 1fr 1fr  ;
+    box-shadow: 0px 0px 7px #dce1f6, 0px 0px 15px #2272FF, 0px 10px 10px cadetblue;
+    
+}
+
+.loaderDiv{
+    margin: 10px 0 10px 36vw;
+    
+}
+
+.navPage {
+    caret-color: transparent;
+    cursor: pointer;
+    margin: 10px 5px;
+}
+
+.li {
+    display: grid;
+    grid-template-rows:  1fr; 
+    grid-template-columns:  1fr 1fr;
+    align-items: center;
+    height: 200px;
+    min-width: 500px;
+    padding: 15px;
+    border: solid 2px #fff;
+    color: azure;
+    text-decoration: none;
+    transition: transform .15s ease;
+    caret-color: transparent;
+}
+/* .li:hover {
+    transform: scale(1,1.03);
+}
+.li:active {
+   transform: scale(1,1.01);
+} */
+
+.select {
+    border-bottom: #2272FF solid 1px;
+    font-size: 30px;
+    caret-color: transparent;
+}
+
+.img {
+    width: 150px;
+    height: 100px;
+    user-select: none;
+    caret-color: transparent;
+}
+
+.btn {
+    width: 100px;
+    user-select: none;
+    /* margin: 0 15px; */
+}
